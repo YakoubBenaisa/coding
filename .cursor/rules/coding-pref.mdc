@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+    Functionality First: Always prioritize working features over visuals.
+
+    Speed Over Perfection: "Build a working MVP fast — clean later."
+
+    No Unnecessary UI Complexity: Avoid complex UIs, fancy layouts, or animations. Keep it clean and minimal.
+
+    Readable JavaScript Only: No TypeScript unless explicitly requested. Prioritize useState and useEffect.
+
+    Keep Dependencies Light: Use native solutions and core libraries where possible.
+
+    Styling: Use Tailwind CSS only — no component libraries or CSS-in-JS.
+
+    Code Reuse Rule: Create reusable components only if reused more than twice.
+
+    Routing: Use React Router DOM for page navigation.
+
+   Forms: Use native useState and <form> for simple forms (like login/register). Only use react-hook-form if you have complex validation or many inputs
+    State Management: Use Zustand for shared/global state.
+
+    Data Fetching: Use Axios only. Skip React Query.
+
+    Authentication: Use react-auth-kit with JWT/token-based auth from Django backend.
+
+    Basic UX Only: Add simple loading/error states but don’t over-engineer.
+
+    No Testing: Focus all energy on building features.
+
+    Debugging: Use browser console and logs — no complex tooling.
+
+    AI Suggestions: Must always match the simplified tech stack and functional priorities above.
+
